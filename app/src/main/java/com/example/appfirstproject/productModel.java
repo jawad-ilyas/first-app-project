@@ -14,4 +14,16 @@ public class productModel {
         this.tvCurrentPrice = tvCurrentPrice;
         this.rbProductRatingBar = rbProductRatingBar;
     }
+
+    public productModel( String tvProductText,  String tvCurrentPrice , int ivProductImg) {
+        this.tvProductText = tvProductText;
+        this.tvCurrentPrice = tvCurrentPrice;
+        this.ivProductImg = ivProductImg;
+    }
+
+    public productModel( String tvProductText,  String tvCurrentPrice ) {
+        this.tvProductText = tvProductText;
+        this.tvCurrentPrice = tvCurrentPrice;
+
+    }
 }

@@ -12,6 +12,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="vertical"
+            android:id="@+id/llrow"
             android:layout_height="wrap_content">
             <ImageView
                 android:layout_width="180dp"
@@ -21,7 +22,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:orientation="vertical"
-                android:paddingLeft="20sp"
+                android:gravity="center"
                 android:layout_height="wrap_content">
 
                 <TextView
@@ -37,7 +38,11 @@
                 <RatingBar
                     android:id="@+id/rbProductRatingBar"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                />
+
                 <LinearLayout
                     android:layout_width="wrap_content"
 
@@ -56,6 +61,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="30sp"
+                        android:textColor="#E91E63"
                         android:id="@+id/tvCurrentPrice"
                         android:textStyle="bold"
                         android:text="500$"/>
